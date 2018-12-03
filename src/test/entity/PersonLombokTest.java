@@ -115,10 +115,4 @@ public class PersonLombokTest {
         assert(equalsTest.equals(equalsTest2));
     }
 
-    @Test
-    public void canEqual() {
-        PersonLombok equalsTest = new PersonLombok("carl","last",6,"house");
-        PersonLombok equalsTest2 = new PersonLombok("carl","last",6,"house");
-        assert(equalsTest.equals(equalsTest2));
-    }
 }
